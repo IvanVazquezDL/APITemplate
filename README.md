@@ -1,5 +1,14 @@
+## SQL
+* npm init -y
+* npm i express
+* npm i nodemon
+* npm i pg
+* npm i cors
+* npm i dotenv
+* 
 ## Mongo
 * npm init -y
+* npm i express
 * npm i nodemon
 * add .env
 * add .gitignore
