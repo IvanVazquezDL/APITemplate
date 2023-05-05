@@ -1,16 +1,16 @@
-##Mongo
-npm init -y
-npm i nodemon
-add .env
-add .gitignore
-add index.js
-npm i dotenv
-npm i cors
-npm i mongoose
+## Mongo
+* npm init -y
+* npm i nodemon
+* add .env
+* add .gitignore
+* add index.js
+* npm i dotenv
+* npm i cors
+* npm i mongoose
 
-##Quotes
+## Quotes
 
-####POST - Create Quote 
+#### POST - Create Quote 
 
 *`http://localhost:PORT/api/quotes/`*
 
@@ -24,7 +24,7 @@ Body
 }
 ```
 
-####GET - Get Quotes
+#### GET - Get Quotes
 Gets all the english quotes by default
 *`http://localhost:PORT/api/quotes`*
 
@@ -32,11 +32,11 @@ Gets all the english quotes by default
 Gets all the spanish quotes from chapter 0 (Dedication)
 *`http://localhost:PORT/api/quotes/?lang=ES&chapter=0`*
 
-####DELETE - Delete Quote
+#### DELETE - Delete Quote
 *`http://localhost:PORT/api/quotes/:id
 `*
 
-####PUT - Update Quote
+#### PUT - Update Quote
 *`http://localhost:PORT/api/quotes/:id`*
 
 Body
