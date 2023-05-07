@@ -11,6 +11,8 @@ const getQuotes = async(req, res = response) => {
       query += ' AND chapter = $2';
       params.push(chapter);
     }
+
+    query += ' ORDER BY chapter ASC';
     
     const quotes = await dbConnection.query(query, params);
 
